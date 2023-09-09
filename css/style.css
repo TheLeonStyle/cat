@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: repeat(60, 6.9px);
+}
+
+.pixel {
+  width: 6.9px;
+  height: 7.3px;
+}
+
+.orange-white {
+  background-color: #a83e1f;
+}
+
+.orange {
+  background-color: #fa7a4c;
+}
+
+.orange-dark {
+  background-color: #b25331;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.blue {
+  background-color: #71a4ff;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.gray-dark {
+  background-color: #c7dbff;
+}
+
+.gray {
+  background-color: #e1eaff;
+}
+
+.red {
+  background-color: #ff400e;
+}
+
+.yellow-dark {
+  background-color: #eca300;
+}
+
+.yellow {
+  background-color: #ffc52b;
+}
+
+.yellow-white {
+  background-color: #ffdf8f;
+}
+
+.green-dark {
+  background-color: #55bf82;
+}
+
+.green {
+  background-color: #009064;
+}
+
+.green-white {
+  background-color: #00a370;
+}
